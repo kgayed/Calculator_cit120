@@ -1,7 +1,7 @@
 var ele=document.body.querySelector(".box");
+
+
 var question1=Number(prompt("Please enter a number"));
-
-
 
     if (isNaN(question1)){
         ele.innerHTML= "This is not a number!";
